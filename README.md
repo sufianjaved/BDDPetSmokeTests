@@ -22,4 +22,4 @@ Execute following command to run tests:
 
 Execute following to generate allure report, please make sure Allure is pre-installed:
 
-    allure serve allure-results
+    allure serve target/surefire-reports/
