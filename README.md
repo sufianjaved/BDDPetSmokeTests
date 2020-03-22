@@ -1,4 +1,4 @@
-# BDDPetSmokeTests
+### BDDPetSmokeTests
 Pet module Smoke Tests using BDD
 
 Designed a Smoke Test Framework for PetStore PET module only
@@ -12,9 +12,14 @@ Used RESTAssured
 Used Allure for reporting
 
 
-################## Instructions ##################
+**################## Instructions ##################**
 
-Use Maven to install the dependencies
+Please use Maven to install the dependencies
 
-Execute mvn test to execute tests
-Execute allure serve allure-results to generate allure report, please make sure Allure is pre-installed
+Execute following command to run tests:
+
+    mvn clean test
+
+Execute following to generate allure report, please make sure Allure is pre-installed:
+
+    allure serve allure-results
