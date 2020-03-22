@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="22805" started-at="2020-03-22T20:57:55Z" finished-at="2020-03-22T20:58:18Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberTests@274872f8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="22805" started-at="2020-03-22T20:57:55Z" finished-at="2020-03-22T20:58:18Z">
+      <class name="CucumberTests">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:CucumberTests@274872f8]" name="setUpClass" is-config="true" duration-ms="251" started-at="2020-03-23T01:57:55Z" finished-at="2020-03-23T01:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberTests@274872f8]" name="runScenario" duration-ms="8279" started-at="2020-03-23T01:57:56Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T01:58:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to add pets to the system"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberTests@274872f8]" name="runScenario" duration-ms="7972" started-at="2020-03-23T01:58:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T01:58:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to delete pet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberTests@274872f8]" name="runScenario" duration-ms="5822" started-at="2020-03-23T01:58:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T01:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to update pet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CucumberTests@274872f8]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2020-03-23T01:58:18Z" finished-at="2020-03-23T01:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
